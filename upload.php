@@ -11,7 +11,7 @@
     </header>
     <form action="processo_upload.php" method="post" enctype="multipart/form-data">
         <label>Selecione a imagem:</label><br><br>
-        <input type="text" name="arquivo" required><br><br>
+        <input type="file" name="arquivo" required><br><br>
         <button type="submit">Enviar</button>
     </form>
     <br>
